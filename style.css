@@ -12,19 +12,21 @@ body {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     display: flex;
-    flex-shrink: 1;
     flex-direction: column;
     align-items: center;
 }
 
 .header {
+    max-width: 1046px;
     font-size: 24px;
     font-weight: bolder;
     color: #F9FAF8;
     display: flex;
+    flex-shrink: 1;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    gap: 1200px;
+    justify-content: center;
+    column-gap: 500px;
 }
 
 .links {
@@ -46,11 +48,15 @@ body {
     background-color: #0488A6;
     color: #444444;
     display: flex;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 100px;
 }
 
 .hero-text {
-    width: 400px;
+    max-width: 400px;
     display: flex;
     flex-shrink: 0;
     flex-direction: column;
@@ -105,6 +111,7 @@ body {
 
 .team-members {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     gap: 120px;
@@ -118,6 +125,8 @@ body {
 }
 
 .cat img {
+    border: 2px solid;
+    border-color: #F9FAF8;
     border-radius: 10px;
     width: 250px;
     height: 250px;
@@ -127,5 +136,28 @@ body {
     margin-top: 8px;
     font-size: 24px;
     font-weight: bold;
+    color: #F9FAF8;
+}
+
+.quote {
+    height: 300px;
+    background-color: #FBF3D0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    max-width: 1046px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
     color: #444444;
+}
+
+.quote-signature {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #444444;
+    text-align: end
 }
