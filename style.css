@@ -45,8 +45,8 @@ body {
     padding: 30px;
     border-radius: 50px;
     margin-bottom: 84px;
-    background-color: #0488A6;
-    color: #444444;
+    background-color: #0081A7;
+    color: #F9FAF8;
     display: flex;
     flex-shrink: 1;
     flex-wrap: wrap;
@@ -65,10 +65,10 @@ body {
 }
 
 .hero-container h1 {
+    margin-top: 0px;
     margin-bottom: 12px;
     font-size: 48px;
     font-weight: bolder;
-    color: #F9FAF8;
 }
 
 .hero-container p {
@@ -98,7 +98,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #0488A6;
+    background-color: #00AFB9;
     color: #F9FAF8;
 }
 
@@ -141,7 +141,7 @@ body {
 
 .quote {
     height: 300px;
-    background-color: #FBF3D0;
+    background-color: #FDFCDC;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,4 +160,44 @@ body {
     font-weight: bolder;
     color: #444444;
     text-align: end
+}
+
+.sign-up {
+    height: 400px;
+    background-color: #F27166;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container {
+    padding: 45px 90px 45px 90px;
+    border-radius: 50px;
+    background-color: #FED9B7;
+    color: #444444;
+    display: flex;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 300px;
+}
+
+.sign-up-text h2 {
+    margin-top: 0px;
+    font-size: 32px;
+}
+
+.sign-up-text p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.sign-up-container button {
+    height: 42px;
+    width: max-content;
+    margin-top: 18px;
+    background-color: #F4A089;
+    color: #444444;
+    font-size: 20px;
+    border-radius: 10px;
 }
