@@ -93,7 +93,7 @@ body {
     flex-shrink: 1;
 }
 
-.team {
+#team {
     padding-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -139,7 +139,7 @@ body {
     color: #F9FAF8;
 }
 
-.quote {
+#testimonial {
     height: 300px;
     background-color: #FDFCDC;
     display: flex;
@@ -147,7 +147,7 @@ body {
     align-items: center;
 }
 
-.quote-text {
+.testimonial-text {
     max-width: 1046px;
     font-size: 36px;
     font-weight: lighter;
@@ -155,14 +155,14 @@ body {
     color: #444444;
 }
 
-.quote-signature {
+.testimonial-signature {
     font-size: 36px;
     font-weight: bolder;
     color: #444444;
     text-align: end
 }
 
-.sign-up {
+#contact {
     height: 400px;
     background-color: #F27166;
     display: flex;
@@ -170,7 +170,7 @@ body {
     align-items: center;
 }
 
-.sign-up-container {
+.contact-container {
     padding: 45px 90px 45px 90px;
     border-radius: 50px;
     background-color: #FED9B7;
@@ -182,17 +182,17 @@ body {
     column-gap: 300px;
 }
 
-.sign-up-text h2 {
+.contact-text h2 {
     margin-top: 0px;
     font-size: 32px;
 }
 
-.sign-up-text p {
+.contact-text p {
     margin: 0;
     font-size: 20px;
 }
 
-.sign-up-container button {
+.contact-container button {
     height: 42px;
     width: max-content;
     margin-top: 18px;
