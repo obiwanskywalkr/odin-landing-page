@@ -1,3 +1,7 @@
-# odin-landing-page
+# Landing Page
 
-A site's landing page built from the ground up to demonstrate HTML and CSS knowledge and to further practice flexbox properties.
+A landing page built with HTML and CSS.
+
+The goal of this project was to practice using flexbox.
+
+Designed by cats from the FastCat WebDev agency. ;)
